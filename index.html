@@ -4,77 +4,81 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Chocolate</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="">
-                    SIMPLY CHOCOLATE
-                    <img src="./pictures/chocolate.svg" alt="logo-chocolate" />
+        <header class="header">
+            <nav class="header-nav">
+                <a href="" class="header-logo">
+                    <span class="header-logo-span">SIMPLY</span>CHOCOLATE
+                    <img src="./pictures/chocolate.svg" alt="logo-chocolate" class="header-logo-image"/>
                 </a>
-                <ul>
-                    <li>
-                        <a href="#main">
+                <ul class="header-menu-list">
+                    <li class="header-menu-item">
+                        <a href="#main" class="header-menu-link">
                             Home
                         </a>
                     </li>
-                    <li>
-                        <a href="#made">
+                    <li class="header-menu-item">
+                        <a href="#made" class="header-menu-link">
                             How it’s made?
                         </a>
                     </li>
-                    <li>
-                        <a href="#sellers">
+                    <li class="header-menu-item">
+                        <a href="#sellers" class="header-menu-link">
                             Chocolate is loved
                         </a>
                     </li>
                 </ul>
             </nav>
-            <ul>
-                <li><a href="" target="_blank"><img src="./pictures/facebook-header.svg" alt="facebook" /></a></li>
-                <li><a href="" target="_blank"><img src="./pictures/instagram-header.svg" alt="instagram" /></a></li>
-                <li><a href="" target="_blank"><img src="./pictures/twitter-header.svg" alt="twitter"></a></li>
+            <ul class="header-contacts-list">
+                <li class="header-contacts-item"><a href="" target="_blank" class="header-contacts-item-link"><img src="./pictures/facebook-header.svg" alt="facebook"  class="header-contacts-item-image"/></a></li>
+                <li class="header-contacts-item"><a href="" target="_blank" class="header-contacts-item-link"><img src="./pictures/instagram-header.svg" alt="instagram"  class="header-contacts-item-image"/></a></li>
+                <li class="header-contacts-item"><a href="" target="_blank" class="header-contacts-item-link"><img src="./pictures/twitter-header.svg" alt="twitter" class="header-contacts-item-image"></a></li>
             </ul>
         </header>
         <main>
-            <section id="main">
-                <h1>
+            <section id="main" class="main">
+                <h1 class="main-title">
                     Treat yourself or a loved one to our finest ingredients for a moment of pure delight!
                 </h1>
-                <button type="button">
+                <button type="button" class="main-button">
                     Buy now
                 </button>
-                <a href="#made">
+                <a href="#made" class="main-link">
                     How it’s made
                 </a>
-                <a href="#Benefits">
-                    scroll down <img src="./pictures/scroll.svg" alt="scroll down">
+                <a href="#Benefits" class="main-scroll">
+                    scroll down <img src="./pictures/scroll.svg" alt="scroll down" class="main-scroll-icon">
                 </a>
             </section>
-            <section id="Benefits">
-                <h2 hidden> Benefits </h2>
-                <ul>
-                    <li>
-                        <h3>
+            <section id="Benefits" class="benefits">
+                <h2 class="benefits-title"> Benefits </h2>
+                <ul class="benefits-list">
+                    <li class="benefits-list-item">
+                        <h3 class="benefits-list-item-title">
                             Unsurpassed taste
                         </h3>
-                        <p>
+                        <p class="benefits-list-item-text">
                             Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of chocolate bliss.
                         </p>
                     </li>
-                    <li>
-                        <h3>
+                    <li class="benefits-list-item">
+                        <h3 class="benefits-list-item-title">
                             Affordable price
                         </h3>
-                        <p>
+                        <p class="benefits-list-item-text">
                             Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats. Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and indulge in affordable luxury today.
                         </p>
                     </li>
-                    <li>
-                        <h3>
+                    <li class="benefits-list-item">
+                        <h3 class="benefits-list-item-title">
                             Own production
                         </h3>
-                        <p>
+                        <p class="benefits-list-item-text">
                             We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.
                         </p>
                     </li>
